@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Frame</title>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .hero {
+            position: sticky;
+            top: 0;
+            background-color: #6e3232;
+            padding: 40px 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .hero nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero nav ul li {
+            margin: 0 15px;
+        }
+
+        .hero nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero nav ul li a:hover {
+            color: #6e3232;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: 'The Nautigal', cursive;
+            font-size: 2.8em;
+            animation: blink 1s step-start infinite;
+            color: white;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome!</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="rightFrame">Home</a></li>
+                <li><a href="aboutme.html" target="rightFrame">About Me</a></li>
+                <li><a href="myjourney.html" target="rightFrame">My Journey</a></li>
+                <li><a href="projects.html" target="rightFrame">Projects</a></li>
+                <li><a href="gallery.html" target="rightFrame">Gallery</a></li>
+                <li><a href="blog.html" target="leftFrame">Blog</a></li>
+                <li><a href="contact.html" target="rightFrame">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

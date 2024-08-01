@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+         body {
+            background-color: #6e3232;
+            color:  #f4f4f4;
+        }
+        h1{
+            font-size: 24px;
+            margin-top: 0;
+            
+        }
+        p{
+            margin: 10px 0;
+        }
+        .section {
+            padding: 60px 20px;
+            background: #f4f4f4;
+            border-bottom: 2px solid #ddd;
+            text-align: center;
+            border-color: #6e3232;
+        }
+        .section h2 {
+            margin-top:0;
+            color: #555;
+        }
+        .section p {
+            color: #555;
+        }
+        .home{
+            text-align: justify;
+        }
+        .gallery-container{
+            margin-top: 0;
+            margin-left: 100px;
+            margin-right: 100px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            transition: all 0.3s ease-in-out;
+        }
+        .gallery{
+            position: relative;
+            margin: 10px;
+            cursor: pointer;
+            width: 300px;
+            height: 200px;
+            flex: 1 1 200px;
+            max-width: 500px;
+            transition: flex-grow 0.3s ease;
+        }
+        .gallery img{
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+        .gallery:hover img{
+            transform: scale(1.2);
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="gallery" class="section">
+        <section id="gallery">
+        
+            <div class="gallery-container">
+                <div class="gallery">
+                    <input type="radio" id="image1" name="gallery" hidden>
+                 
+                        <img src="images/453126075_461858803382617_5345926575694658635_n.jpg" alt="Image 1">
+                  
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image2" name="gallery" hidden>
+                   
+                        <img src="images/453251718_1469123473767576_775978559668182011_n.jpg" alt="Image 2">
+                
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image3" name="gallery" hidden>
+                  
+                        <img src="images/452444592_518814963829412_1032702254457841655_n.jpg" alt="Image 3">
+                
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image4" name="gallery" hidden>
+                
+                        <img src="images/452428287_465717343086541_6725318687293152319_n.jpg" alt="Image 4">
+               
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image5" name="gallery" hidden>
+                    
+                        <img src="images/452436473_1660620871392605_2378882048948244177_n.jpg" alt="Image 5">
+              
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image6" name="gallery" hidden>
+                    
+                        <img src="images/452649279_461548383344392_5260065045161161435_n.jpg" alt="Image 6">
+             
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image7" name="gallery" hidden>
+                
+                        <img src="images/445849478_479333311215387_3205833620791823273_n.jpg" alt="Image 7">
+                
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image8" name="gallery" hidden>
+               
+                        <img src="images/452528646_1186357822511506_3976677532236503069_n.jpg" alt="Image 8">
+              
+                </div>
+                <div class="gallery">
+                    <input type="radio" id="image9" name="gallery" hidden>
+                   
+                        <img src="images/346099335_166059379490442_41490521488221430_n.jpg" alt="Image 9">
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

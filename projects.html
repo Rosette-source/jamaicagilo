@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        .hero {
+            position: sticky;
+            top: 0;
+            background-color: #6e3232;
+            padding: 40px 0;
+            z-index: 1000;
+         
+        }
+        .hero nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content: center;
+        }
+        .hero nav ul li {
+            margin: 0 15px;
+        }
+        .hero nav ul li a {
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: yellowgreen;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 24px;
+            margin-top: 0;
+        }
+        p{
+            margin: 10px 0;
+        }
+        .section {
+            padding: 60px 20px;
+            background: #f4f4f4;
+            border-bottom: 2px solid #ddd;
+            text-align: center;
+        }
+        .section h2 {
+            margin-top:60px;
+            color: #212121;
+        }
+        .section p {
+            color: #555;
+        }
+        .home{
+            text-align: justify;
+        }
+        .profile{
+            margin-top: 30px;
+        }
+        .projects-section{
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .projects-container{
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .project-box{
+            flex: 1 1 calc(25%-20px);
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px #6e3232;
+            margin-bottom: 20px;
+        }
+        .project-box p{
+            text-align: center;
+            margin: 0;
+            color: #666;
+        }
+        h4{
+            text-align: center;
+        }
+        @media (max-width:768px){
+            .project-box{
+                flex: 1 1 calc(50%-20px);
+            }
+        }
+        @media (max-width: 480px){
+            .project-box{
+                flex: 1 1 100%;
+            }
+        }
+        span{
+            color:#6e3232;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="projects">
+        <div id="projects" class="projects-section">
+            <h2><br></r>MIT App Inventor</h2><br>
+            <div class="projects-container">
+                <div class="project-box">  
+                    <h4><a href="project1.html"><span>Project 1:<br>TALK TO ME</span></a></h4>
+                    <p>This app uses a text-to-speech feature 
+                        <br>that reads aloud text when clicked.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="project2.html"><span>Project 2:<br>SIMPLE CALCULATOR</span></a></h4>
+                    <p>This project is a basic calculator app 
+                        <br>that can perform addition, 
+                        <br>subtraction, multiplication 
+                        <br>and division operations.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="project3.html"><span>Project 3:<br>GALLERY APP</span></a></h4>
+                    <p>This app allows users to view and 
+                        <br>share photos with additional 
+                        <br>features.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="project4.html"><span>Project 4:<br>ALPHABET-LEARNING APP</span></a></h4>
+                    <p>This is a tutorial app that will 
+                        <br>teach kids to learn alphabets.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="project5.html"><span>Project 5:<br>SIMPLE CHAT APP</span></a></h4>
+                    <p>This is a <i>family chat app</i> 
+                        <br>that allows you and your 
+                        <br>family to have a live chat.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="project6.html"><span>Project 6:<br>WEATHER FORECAST APP</span></a></h4>
+                    <p>This app displays current weather <br>
+                        conditions and forecasts based 
+                        <br>on the user's location.</p><br>
+                </div>
+            </div>
+            <h2>HTM & CSS</h2><br>
+            <div class="projects-container">
+                <div class="project-box">
+                    <h4><a href="act1.html"><span>Project 1:<br>TITLE & PARAGRAPH TAG</span></a></h4>
+                    <p>This is a basic HTML page 
+                        <br>demonstrating the use of the
+                        <br><i>title tag</i> for the page 
+                        <br>title and <i>p tags</i> for 
+                        <br>paragraphs of text.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act2.html"><span>Project 2:<br>ADD LINKS & IMAGES</span></a></h4>
+                    <p>This is an HTML page showcasing how <br>
+                        to insert hyperlinks using <i>a tag </i>
+                        <br>and images using<i>img tag</i>.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act3.html"><span>Project 3:<br>ORDERED AND <br>UNORDERED LISTS</span></a></h4>
+                    <p>This is a page illustrating the 
+                        <br>creation of ordered lists with 
+                        <br><i>ol tags</i> and unordered 
+                        <br>lists with <i>ul tags</i>, 
+                        <br>including list items with 
+                        <br><i>li tags</i>.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act4.html"><span>Project 4:<br>TABLE</span></a></h4>
+                    <p>This is an HTML project that presents 
+                        <br>data in a tabular format using 
+                        <br>the <i>table, tr, th, </i>and 
+                        <br><i>td tags</i>.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act5.html"><span>Project 5:<br>FORM</span></a></h4>
+                    <p>This is a simple web form example 
+                        <br>demonstrating input fields, 
+                        <br>buttons and other form elements 
+                        <br>using the <i>form, input, label </i>
+                        <br>and <i>button tags</i>.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act6.html"><span>Project 6:<br>CLASS SCHEDULE</span></a></h4>
+                    <p>An HTML page detailing a weekly class 
+                        <br>schedule, structured with table 
+                        <br>format, introducing the<i>rowspan </i>
+                        <br>and <i>colspan tags</i>.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act7.html"><span>Project 7:<br>HYPERLINK</span></a></h4>
+                    <p>A project that focused on creating and 
+                        <br>styling hyperlinks using <i>a tag</i>, 
+                        <br>including internal, external and 
+                        <br>anchor links.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act8.html"><span>Project 8:<br>DIVISION TAG</span></a></h4>
+                    <p>This demonstrates the use of the 
+                        <br><i>div tag</i> for structuring 
+                        <br>and styling different sections 
+                        <br>of an HTML page.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act9.html"><span>Project 9:<br>FRAMESET EXAMPLE</span></a></h4>
+                    <p>This is a basic example using the 
+                        <br><i>fameset tag</i> to divide 
+                        <br>the browser window into multiple 
+                        <br>frames.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act10.html"><span>Project 10:<br>FRAMESET EXAMPLE <br>WITH COLUMNS AND ROWS</span></a></h4>
+                    <p>An advanced frameset example that 
+                        <br>organizes content into columns 
+                        <br>and rows, using nested 
+                        <br><i>frameset tags</i>.</p><br>
+                </div>
+                <div class="project-box">
+                    <h4><a href="act11.html"><span>Project 11:<br>FRAMESET EXAMPLE <br>WITH TOP ROW</span></a></h4>
+                    <p>A frameset layout with a dedicated 
+                        <br>top row for navigation or other 
+                        <br>content, separating the rest of 
+                        <br>the page into additional frames.</p><br>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
